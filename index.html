@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Innowixe Studio || Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i"
+    rel="stylesheet">
+
+
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    h1 {
+      text-align: center;
+      color: #1785eb;
+      font-size: 45px;
+
+    }
+
+    .team {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      margin: auto;
+    }
+
+    .our-team {
+      background-color: #f7f5ec;
+      text-align: center;
+      overflow: hidden;
+      position: relative;
+      margin: 0px 25px;
+      padding: 30px 70px;
+
+    }
+
+
+
+    .our-team .pic {
+      display: inline-block;
+      width: 130px;
+      height: 130px;
+      margin-bottom: 0px;
+      z-index: 1;
+      position: relative;
+    }
+
+    .our-team .pic::before {
+      content: '';
+      width: 100%;
+      height: 0;
+      border-radius: 50%;
+      background: #1785eb;
+      position: absolute;
+      bottom: 135%;
+      right: 0;
+      left: 0;
+      opacity: 0.2;
+      transform: scale(3);
+      transition: all 0.3s linear 0s;
+    }
+
+    .our-team:hover .pic::before {
+      height: 100%;
+    }
+
+    .our-team .pic:after {
+      content: "";
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: #1785eb;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .our-team .pic img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      transform: scale(1);
+      transition: all 0.9s ease 0s;
+    }
+
+    .our-team:hover .pic img {
+      box-shadow: 0 0 0 14px #f7f5ec;
+      transform: scale(0.7);
+    }
+
+    .our-team .team-content {
+      margin-bottom: 30px;
+
+    }
+
+    .our-team .title {
+      font-size: 22px;
+      font-weight: 700;
+      color: #4e5052;
+      letter-spacing: 1px;
+      margin-bottom: 5px;
+    }
+
+    .our-team .post {
+      display: block;
+      font-size: 15px;
+      color: #4e5052;
+    }
+
+    .our-team .social {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      background: #1785eb;
+      position: absolute;
+      bottom: -100px;
+      left: 0;
+      transition: all 0.5s ease 0s;
+    }
+
+
+    .our-team:hover .social {
+      bottom: 0;
+    }
+
+    .our-team .social li {
+      display: inline-block;
+    }
+
+    .our-team .social li a {
+      text-decoration: none;
+      display: block;
+      padding: 10px;
+      font-size: 17px;
+      color: #fff;
+      transition: all 0.3s ease 0s;
+    }
+
+    .our-team .social li a:hover {
+      color: #1785eb;
+      background: #f7f5ec;
+    }
+
+    @media (max-width: 720px) {
+      .team {
+        flex-direction: column;
+      }
+
+      .our-team {
+        width: 80%;
+        margin-top: 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1 class="text-light"><a href="index.html"><span>Innowixe</span></a></h1>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="/index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="/aboutus.html">About Us</a></li>
+          <li><a class="nav-link scrollto" href="/services.html">Services</a></li>
+          <li><a class="nav-link scrollto" href="/contact.html">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1>Bettter digital experience with Innowixe Studio</h1>
+          <h2>At Innowixe Studio, we are passionate about empowering businesses like yours to innovate, inspire, and
+            thrive. Our tailored services are designed to fuel your creative vision and transform your business into a
+            beacon of success.</h2>
+          <div>
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+          <img src="/assets/img/_46926022-e7cf-43ae-a0be-83825b0b27cf.jpg" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Check out the great services we offer</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-globe"></i></div>
+              <h4 class="title"><a href="">Web Development</a></h4>
+              <p class="description">You Can hire use with you website work!!</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-brush"></i></div>
+              <h4 class="title"><a href="">Gfx Designer</a></h4>
+              <p class="description">You can hire us to get your gfx work !!!</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-gem"></i></div>
+              <h4 class="title"><a href="">Diamond topup</a></h4>
+              <p class="description">You can topup freefire diamond at a affordable price.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-robot"></i></div>
+              <h4 class="title"><a href="">Discord Bot Development</a></h4>
+              <p class="description">You can get Discord bot development at low price.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-robot"></i></div>
+              <h4 class="title"><a href=""> Esp server management</a></h4>
+              <p class="description">We can help you manage your esp server at affordable price.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-robot"></i></div>
+              <h4 class="title"><a href=""> Netflix/spotify/nitro</a></h4>
+              <p class="description">You can buy many online stuff from our studio</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-robot"></i></div>
+              <h4 class="title"><a href="">video editing</a></h4>
+              <p class="description">You can hire us to edit your videos</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-robot"></i></div>
+              <h4 class="title"><a href="">Jurcey degine</a></h4>
+              <p class="description">You can get Your own Jersey at affordable price.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>F.A.Q</h2>
+          <p>Frequently Asked Questions</p>
+        </div>
+
+        <ul class="faq-list" data-aos="fade-up" data-aos-delay="100">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Is there Any Extra fees? <i
+                class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Innowixe dont take any extra fees for any work we have done. You only have to pay the price said for
+                your work.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">How can I hire you ? <i
+                class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                You can easily hire us by <a href="https://discord.gg/wD5qya9Q2V">Discord</a>
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">How many payment option do we take?<i
+                class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                We take payment from many option like Esewa , Khalti , paypal.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question"><i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question"><i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+               
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question"><i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Team</h2>
+          <p>Our team is always here to help</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="our-team">
+              <div class="pic">
+                <img src="/assets/img/team/garry.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <h3 class="titel">Garry Shrestha</h3>
+                <span class="post">Founder</span>
+              </div>
+              <ul class="social">
+                <li><a href="" class="bi bi-facebook"></a></li>
+                <li><a href="" class="bi bi-instagram"></a></li>
+                <li><a href="" class="bi bi-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="our-team">
+              <div class="pic">
+                <img src="/assets/img/team/prayas.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <h3 class="titel">Prayas Bhatt</h3>
+                <span class="post">CEO</span>
+              </div>
+              <ul class="social">
+                <li><a href="https://www.facebook.com/Prayas0519" class="bi bi-facebook"></a></li>
+                <li><a href="https://www.instagram.com/prayas_bhatt123/" class="bi bi-instagram"></a></li>
+                <li><a href="https://www.linkedin.com/in/prayas-bhatt-769755284/" class="bi bi-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="our-team">
+              <div class="pic">
+                <img src="/assets/img/team/prajjwal.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <h3 class="titel">Prajjwal Maharjan</h3>
+                <span class="post">Discord </span>
+              </div>
+              <ul class="social">
+                <li><a href="https://www.facebook.com/profile.php?id=100087917366138" class="bi bi-facebook"></a></li>
+                <li><a href="https://www.instagram.com/axelender_71/" class="bi bi-instagram"></a></li>
+                <li><a href="https://www.linkedin.com/in/prajjwal-maharjan-a10b02294/" class="bi bi-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="our-team">
+              <div class="pic">
+                <img src="/assets/img/team/rozeen.png" alt="">
+              </div>
+              <div class="team-content">
+                <h3 class="titel">Rozeen Shrestha  </h3>
+                <span class="post">Management</span>
+              </div>
+              <ul class="social">
+                <li><a href="" class="bi bi-facebook"></a></li>
+                <li><a href="" class="bi bi-instagram"></a></li>
+                <li><a href="" class="bi bi-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="our-team">
+              <div class="pic">
+                <img src="/assets/img/team/puja.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <h3 class="titel">Puja mahato</h3>
+                <span class="post">Caster</span>
+              </div>
+              <ul class="social">
+                <li><a href="https://www.facebook.com/profile.php?id=100093082389548&mibextid=ZbWKwL" class="bi bi-facebook"></a></li>
+                <li><a href="" class="bi bi-instagram"></a></li>
+                <li><a href="https://www.youtube.com/@sanuragamingesports1948" class="bi bi-youtube"></a></li>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="our-team">
+              <div class="pic">
+                <img src="/assets/img/team/bibash.jpg" alt="">
+              </div>
+              <div class="team-content">
+                <h3 class="titel">Bibash Magar</h3>
+                <span class="post">Gfx Designer</span>
+              </div>
+              <ul class="social">
+                <li><a href="https://www.facebook.com/profile.php?id=100066201241767" class="bi bi-facebook"></a></li>
+                <li><a href="https://www.instagram.com/bibasheyyy___/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" class="bi bi-instagram"></a></li>
+                <li><a href="https://www.youtube.com/@bibasht9864" class="bi bi-youtube"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="our-team">
+              <div class="pic">
+                <img src="/assets/img/team/Sashant.png" alt="">
+              </div>
+              <div class="team-content">
+                <h3 class="titel">Shasant Kafle</h3>
+                <span class="post">Gfx Designer</span>
+              </div>
+              <ul class="social">
+                <li><a href="https://www.facebook.com/profile.php?id=100091381093167" class="bi bi-facebook"></a></li>
+                <li><a href="https://www.instagram.com/igx_shasant/" class="bi bi-instagram"></a></li>
+                <li><a href="" class="bi bi-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="our-team">
+              <div class="pic">
+                <img src="" alt="">
+              </div>
+              <div class="team-content">
+                <h3 class="titel"></h3>
+                <span class="post"></span>
+              </div>
+              <ul class="social">
+                <li><a href="" class="bi bi-facebook"></a></li>
+                <li><a href="" class="bi bi-instagram"></a></li>
+                <li><a href="" class="bi bi-linkedin"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Clients</h2>
+          <p>They trusted us</p>
+        </div>
+
+        <div class="clients-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Contact Us Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact Us</h2>
+          <p>Contact us the get started</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Kathmandu,Nepal</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p></p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>9746482698</p>
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Us Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Innowixe Studio</h3>
+            <p>
+              Kathmandu <br>
+              Nepal <br><br>
+              <strong>Phone:</strong> 9746482698<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="/index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#"></a>Discord Bot Development </li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#"></a>Discord Server Development</li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#"></a>Jersey Designing</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>You can support us by following us on our social network</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Innowixe Studio</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
